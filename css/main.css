@@ -10,7 +10,7 @@ dd {
     margin-bottom: 1em;
 }
 
-.page-info {
+.site-info {
     padding: 2em 0;
 }
 
@@ -21,4 +21,8 @@ dd {
 
 .panel-heading i.fa {
     margin-right: 0.5em;
+}
+
+.site-footer {
+    margin-top: 2em;
 }
