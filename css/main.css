@@ -20,9 +20,22 @@ i.fa--spaced {
     padding: 2em 0;
 }
 
+.site-header {
+    margin-bottom: 2em;
+}
+
+.site-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
 .panel {
     border-radius: 0;
     margin-bottom: 3em;
+}
+
+.panel-body {
+    text-align: center;
 }
 
 .site-footer {
