@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -10,6 +11,11 @@ dd {
     margin-bottom: 1em;
 }
 
+i.fa--spaced {
+    margin-right: 0.25em;
+}
+
+/* Page */
 .site-info {
     padding: 2em 0;
 }
@@ -17,10 +23,6 @@ dd {
 .panel {
     border-radius: 0;
     margin-bottom: 3em;
-}
-
-.panel-heading i.fa {
-    margin-right: 0.5em;
 }
 
 .site-footer {
