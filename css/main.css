@@ -1,0 +1,24 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+.page-info {
+    padding: 2em 0;
+}
+
+.panel {
+    border-radius: 0;
+    margin-bottom: 3em;
+}
+
+.panel-heading i.fa {
+    margin-right: 0.5em;
+}
