@@ -32,6 +32,9 @@ i.fa--spaced {
 .panel {
     border-radius: 0;
     margin-bottom: 3em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
 }
 
 .panel-body {
