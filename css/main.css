@@ -29,6 +29,11 @@ i.fa--spaced {
     margin-bottom: 1em;
 }
 
+.alert {
+    background: #fff;
+}
+
+.alert,
 .panel {
     border-radius: 0;
     margin-bottom: 3em;
