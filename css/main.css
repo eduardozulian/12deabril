@@ -1,6 +1,7 @@
 /* General */
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", Georgia, Times, serif;
+    color: #333;
 }
 
 img {
@@ -15,22 +16,48 @@ i.fa--spaced {
     margin-right: 0.25em;
 }
 
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #7e8b99;
+    text-decoration: underline;
+}
+
 /* Page */
 .site-info {
+    background: #333;
+    color: #7e8b99;
     padding: 2em 0;
 }
 
-.site-header {
-    margin-bottom: 2em;
+.disclaimer {
+    background: #7e8b99;
+    padding: 2em;
+}
+
+.disclaimer a,
+.site-footer a {
+    color: #f7ca18;
+    text-decoration: none;
+}
+
+.disclaimer a:hover,
+.site-footer a:hover {
+    text-decoration: underline;
 }
 
 .site-title {
+    color: #f7ca18;
     font-weight: bold;
     margin-bottom: 1em;
 }
 
-.alert {
-    background: #fff;
+.site-main {
+    background-color: #fbfbfb;
+    padding: 2em 0;
 }
 
 .alert,
@@ -42,10 +69,25 @@ i.fa--spaced {
     box-shadow:         none;
 }
 
+.panel-info > .panel-heading {
+    background: #7e8b99;
+    border-color: transparent;
+    border-radius: 0;
+    color: inherit;
+}
+
+.panel-info {
+    border-color: #7e8b99;
+}
+
 .panel-body {
     text-align: center;
 }
 
 .site-footer {
-    margin-top: 2em;
+    border-top: 10px solid #f7ca18;
+}
+
+.site-footer p:last-child {
+    margin-bottom: 0;
 }
